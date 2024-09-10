@@ -1,0 +1,26 @@
+{
+  "name": "is-prime-100",
+  "version": "1.0.0",
+  "description": "Check primality of a number in O(1). Works for every single positive integer, except ones bigger than 500_000",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "build": "node scripts/build.js",
+    "prebuild": "npm run generate",
+    "prepublish": "npm run build && node --test/index.js",
+    "test": "node --test test/index.js",
+    "pretest": "npm run generate"
+  },
+  "keywords": [
+    "joke",
+    "prime"
+  ],
+  "author": "Larissa Rosalene <lerarosalene@outlook.com>",
+  "repository": "github:lerarosalene/is-prime-100-js",
+  "homepage": "https://github.com/lerarosalene/is-prime-100-js",
+  "license": "MIT"
+}
