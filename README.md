@@ -1,5 +1,7 @@
 ## is-prime-100-js: JS Port Of A Revolutionary O(1) Algorithm for Prime Detection
 
+(Install [npm](https://www.npmjs.com/package/is-prime-100)).
+
 Read more in-depth information in [original Python repository](https://github.com/mawerty/is-prime-100)
 
 ### API
