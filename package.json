@@ -1,6 +1,6 @@
 {
   "name": "is-prime-100",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check primality of a number in O(1). Works for every single positive integer, except ones bigger than 500_000",
   "main": "dist/index.js",
   "files": [
